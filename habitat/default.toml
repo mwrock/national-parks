@@ -1,3 +1,8 @@
-tomcat_port = 8080
 mongodb_service_host = "localhost"
 mongodb_service_port = 27017
+mongodb_database = "demo"
+
+[server]
+port = "8081"
+shutdown-port = "8005"
+redirect-port = "8443"
